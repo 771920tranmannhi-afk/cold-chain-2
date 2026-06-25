@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: cold-chain-logistics
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app
